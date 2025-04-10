@@ -12,7 +12,6 @@ public class Ejercicio8 {
         System.out.println("Escribe el lado 3:");
         int lado3 = teclado.nextInt();
 
-
         if(lado1+lado2>lado3 && lado2+lado3>lado1 && lado1+lado3>lado2){
             System.out.println("Los lados pueden formar un triángulo");
         }else{
